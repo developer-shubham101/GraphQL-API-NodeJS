@@ -1,0 +1,14 @@
+export const languages = [
+    {
+        "id": 1,
+        "language": "english"
+    },
+    {
+        "id": 2,
+        "language": "hindi"
+    },
+    {
+        "id": 3,
+        "language": "sanskrit"
+    }
+];
