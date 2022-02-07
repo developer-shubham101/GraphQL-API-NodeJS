@@ -116,8 +116,10 @@ const schema = new GraphQLSchema({
   query: RootQueryType,
 })
 
-app.use('/bhagavad-gita', expressGraphQL({
+app.use('/', expressGraphQL({
   schema: schema,
   graphiql: true
 }))
-app.listen(5000, () => console.log('Server Running'))
+
+ 
+app.listen(process.env.PORT || 1337, () => console.log('Server Running'))
