@@ -1,0 +1,40 @@
+{
+  verse(id: 1) {
+    id
+    title
+    verse_number
+    verse_order
+    word_meanings
+    text
+    chapter_id
+  }
+  verse_by_chapter(chapterId: 1) {
+    id
+    title
+    verse_number
+    verse_order
+    word_meanings
+    text
+    chapter_id
+  }
+  chapter(id: 1) {
+    id
+    chapter_number
+    chapter_summary_hindi
+    chapter_summary
+    image_name
+    name
+    name_meaning
+    name_translation
+    verses_count
+    name_transliterated
+    verses {
+      id
+      title
+      verse_number
+      verse_order
+      word_meanings
+      text
+    }
+  }
+}
