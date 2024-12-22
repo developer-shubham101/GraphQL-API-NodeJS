@@ -10,6 +10,3 @@ npm devStart
 
 
 then open URL in Web Browser http://localhost:1337
-
-check sample 
-https://read-bhagavad-gita.herokuapp.com
