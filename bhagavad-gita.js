@@ -121,5 +121,4 @@ app.use('/', expressGraphQL({
   graphiql: true
 }))
 
- 
-app.listen(process.env.PORT || 1337, () => console.log('Server Running'))
+app.listen(process.env.PORT || 1337, () => console.log('Server Running at http://localhost:1337\nGraphiQL Interface: http://localhost:1337/graphiql'))

@@ -1,7 +1,7 @@
 {
   "name": "read-bhagavad-gita",
   "version": "1.0.0",
-  "description": "",
+  "description": "A GraphQL API for accessing Bhagavad Gita verses, chapters, and authors. This API provides structured access to the sacred text with features like verse lookup, chapter information, and author details.",
   "main": "bhagavad-gita.js",
   "scripts": {
     "start": "node bhagavad-gita.js",
